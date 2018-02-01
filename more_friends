@@ -1,0 +1,4 @@
+def is_friend(friend):
+    return friend[0] == "D" or friend[0] == "N"
+
+print is_friend('Ned')
