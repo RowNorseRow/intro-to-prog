@@ -1,0 +1,11 @@
+def factorial(n):
+    answer = 1
+    while n >= 1:
+        answer = answer * n
+        n = n - 1
+    return answer
+       
+    
+    
+        
+print factorial(12)
